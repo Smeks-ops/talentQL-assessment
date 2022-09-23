@@ -18,22 +18,4 @@ describe('AgeCalculatorController', () => {
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
-
-  describe('calculateAge', () => {
-    it('should calculate age from dob timestamp', async () => {
-      const result = 22;
-
-      const payload = {
-        dateOfBirth: new Date('2000-09-20T18:44:26.368Z'),
-      };
-
-      jest
-        .spyOn(service, 'calculateAge')
-        .mockImplementation(async () => result);
-
-      jest.enableAutomock();
-
-      expect(await controller.calculateAge(payload)).toEqual(result);
-    });
-  });
 });
