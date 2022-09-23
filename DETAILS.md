@@ -6,8 +6,7 @@ I built the age-calculator using a NESTJS framework with typescript.
 [Link to Live App](https://octopus-app-eqgz8.ondigitalocean.app/api/v1/docs/)
 
 ## Features
-
-It collects your dob in a timestamp format (example shown in the swagger documentation) and calculates your current age.
+  It collects your dob in a timestamp format (example shown in the swagger documentation) and calculates your current age.
 ## Tech
 
 The approach I used in my codebase was to collect your date of birth, check if it was valid, extract the year, month and day from it, subtract the dob year from the current year (age),   subtract the dob month from the current month and if the result is less than zero, or the result is equals to zero and the current day is less than the day in the dob, I subtract one from your age.
