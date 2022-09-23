@@ -4,7 +4,6 @@ import { AgeCalculatorService } from './age-calculator.service';
 
 describe('AgeCalculatorController', () => {
   let controller: AgeCalculatorController;
-  let service: AgeCalculatorService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
