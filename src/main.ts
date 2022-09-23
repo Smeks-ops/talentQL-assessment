@@ -18,7 +18,7 @@ async function bootstrap() {
     .setTitle('TalentQL-assessment API server')
     .setDescription('TalentQL-assessment API server documentation')
     .setVersion('1.0')
-    .addTag('age-calculator')
+    .addTag('GET howOld')
     .addBearerAuth()
     .build();
   const document = SwaggerModule.createDocument(app, config);

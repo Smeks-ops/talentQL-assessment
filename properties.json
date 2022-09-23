@@ -3,6 +3,7 @@
     "track": "backend",
     "email": "echenim.osemeke@gmail.com",
     "githubUsername": "Smeks-ops",
-    "deployedAppURL": "",
+    "deployedAppURL": "https://octopus-app-eqgz8.ondigitalocean.app/",
+    "docsURL": "https://octopus-app-eqgz8.ondigitalocean.app/api/v1/docs/",
     "explainer": ""
 }

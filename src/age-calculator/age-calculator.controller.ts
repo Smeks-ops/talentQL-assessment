@@ -11,7 +11,7 @@ export class AgeCalculatorController {
   @ApiOkResponse({
     description: 'Calculates age from date of birth',
   })
-  @Post('calculateAge')
+  @Post('howOld')
   calculateAge(@Body() createAgeCalculatorDto: CreateAgeCalculatorDto) {
     return this.ageCalculatorService.calculateAge(createAgeCalculatorDto);
   }
